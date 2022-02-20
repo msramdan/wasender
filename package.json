@@ -4,6 +4,7 @@
   "description": "WhatsApp Web API",
   "homepage": "https://github.com/adiwajshing/Baileys",
   "scripts": {
+    "start": "node app.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Y",
