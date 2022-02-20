@@ -32,16 +32,16 @@ app.use(express.urlencoded({ extended: true }));
 const cron = require('node-cron');
 
 
-app.get('*', function(req, res) {
-    res.redirect('http://localhost/wagw-mpedia-v4'); //ganti dengan url domain Anda
-});
+// app.get('*', function(req, res) {
+//     res.redirect('http://localhost/wagw-mpedia-v4'); 
+// });
 
 //konfigurasi koneksi
 const db = mysql.createConnection({
   host: 'localhost',
-  user: 'root',
-  password: '',
-  database: 'wav4'
+  user: 'smag7143_ramdan',
+  password: 'ramdan9090',
+  database: 'smag7143_sender'
 });
  
 //connect ke database
